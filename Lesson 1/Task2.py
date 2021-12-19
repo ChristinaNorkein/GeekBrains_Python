@@ -6,4 +6,4 @@ sec = t % 3600
 min = sec // 60
 sec = sec % 60
 
-print(hour, ':', min, ':', sec)
+print('%d:%d:%d' % (hour, min, sec))
